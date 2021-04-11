@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+:root {
+  --color-primary: #000;
+  --color-secondary: #000;
+  --font-normal: 18px;
+  --font-small: 0.8em;
+  --font-large: 1.2em;
+  --font-name: Arial;
+}
+
+body {
+  background-color: #ddd;
+  font-size: var(--font-normal);
+  font-family: var(--font-name);
+  margin: 50px;
+}
